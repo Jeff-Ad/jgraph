@@ -1,13 +1,13 @@
 {
-  "name": "Learnweb3",
+  "name": "learnwebthr",
   "license": "UNLICENSED",
   "scripts": {
     "codegen": "graph codegen",
     "build": "graph build",
-    "deploy": "graph deploy --node https://api.thegraph.com/deploy/ Jeff-Ad/Learnweb3",
-    "create-local": "graph create --node http://localhost:8020/ Jeff-Ad/Learnweb3",
-    "remove-local": "graph remove --node http://localhost:8020/ Jeff-Ad/Learnweb3",
-    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 Jeff-Ad/Learnweb3",
+    "deploy": "graph deploy --node https://api.thegraph.com/deploy/ jeff-ad/learnwebthr",
+    "create-local": "graph create --node http://localhost:8020/ jeff-ad/learnwebthr",
+    "remove-local": "graph remove --node http://localhost:8020/ jeff-ad/learnwebthr",
+    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 jeff-ad/learnwebthr",
     "test": "graph test"
   },
   "dependencies": {
